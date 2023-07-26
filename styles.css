@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: system-ui;
+  background-image: url(ceo.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+}
+
+.logo{
+  color: blue;
+  font-size:25px;
+}
+.logo span{
+  color:aqua
+}
+.menu_bar{
+  background-color: black;
+  display:inline-flex;
+  width:100%;
+  justify-content: space-between;
+  padding:0 5%;
+  height: 75px;
+  align-items: center;
+
+}
+.menu_bar ul {
+   display:flex;
+   list-style: none;
+
+}
+
+.menu_bar li{
+  display:list-item;
+  margin: 20px;
+}
+
+.menu_bar ul li a{
+  color :white;
+  text-decoration: none;
+}
+.menu_bar ul li a:hover{
+  color: cyan;
+}
+
+.label{
+  padding: 20px;
+  
+}
+.dropdown option{
+  font-size: 20px;
+  font-weight:900;
+}
+.dropdown_menu{
+  margin: 10px;
+  color: white;
+  display: flex;
+}
